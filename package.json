@@ -1,0 +1,43 @@
+{
+  "name": "rps-mvp",
+  "version": "0.0.0",
+  "description": "Super simple version of a Rock, Paper, Scissors game",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">5.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "babel": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-node": "^5.0.1",
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-jsonlint": "^1.0.6",
+    "grunt-mocha-istanbul": "^2.4.0",
+    "grunt-node-mocha": "^0.1.3",
+    "grunt-simple-mocha": "^0.4.0",
+    "gruntify-eslint": "^1.3.0",
+    "install": "^0.4.1",
+    "istanbul": "^0.4.1",
+    "jstify": "^0.13.0",
+    "load-grunt-tasks": "^3.3.0",
+    "npm": "^3.5.3",
+    "sinon": "^1.17.2",
+    "source-map-support": "^0.3.3"
+  },
+  "scripts": {
+    "start": "node build/playrps.js",
+    "test": "grunt test"
+  },
+  "author": "Nathan Richards <nathan.richards.500@gmail.com>",
+  "license": "MIT"
+}
