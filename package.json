@@ -4,7 +4,7 @@
   "description": "Super simple version of a Rock, Paper, Scissors game",
   "main": "src/server.js",
   "engines": {
-    "node": ">5.0.0"
+    "node": ">=5.0.0"
   },
   "directories": {
     "test": "test"
